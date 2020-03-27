@@ -2,36 +2,19 @@
 <html>
     <head>
         <title>Health and Hospital</title>
-        <link rel="icon" type="png" href="https://ibb.co/2knq7Xv">
         <script src="hospital-health.js"></script>
     </head>
-    <body> <!--Cases in the country-->
-        <button onclick="getLocation()">Search Now</button>"
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
-            var settings = {
-                "async": true,
-                "crossDomain": true,
-                "url": "https://us1.locationiq.com/v1/reverse.php?key=03050b1d4403e4=-37.870662&lon=144.9803321&format=json",
-                "method": "GET"
-}
-
-                $.ajax(settings).done(function (response) {
-                    console.log(response);
-                });
-            var settings = {
-                "async": true,
-                "crossDomain": true,
-                "url": "https://covid-19-coronavirus-statistics.p.rapidapi.com/v1/stats?country=Columbia",
-                "method": "GET",
-                "headers": {
-                "x-rapidapi-host": "covid-19-coronavirus-statistics.p.rapidapi.com",
-                "x-rapidapi-key": "490e544f40msh6efb468e2630fd3p161b91jsn19177f172c77"
-                }
-            }
-        
-            $.ajax(settings).done(function (response) {
-                console.log(response);
-            });
-        </script>
+    <body> <!--Self Checkup-->
+        <h1> Self Check Up </h2>
+        <h3> Take this short check up to see if you need medical assistance </h3>
+        <input type="checkbox" id="travel"> I have travelled in the last 14 days<br>
+        <input type="checkbox" id="fever"> I have a fever over 38°C (100°F)<br>
+        <input type="checkbox" id="tiredness"> I am more tired than usual<br>
+        <input type="checkbox" id="cough"> I have a dry cough<br>
+        <input type="checkbox" id="pressure"> I have high blood pressure<br>
+        <input type="checkbox" id="heart"> I have a heart problems<br>
+        <input type="checkbox" id="diabetes"> I have diabetes<br>    
+        <button onclick="checkup()">Check</button>
+        <p id="checkUPres"></p>    
     </body>
 </html>
