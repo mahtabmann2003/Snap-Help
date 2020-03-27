@@ -2,12 +2,23 @@
 <html>
     <head>
         <title>Health and Hospital</title>
-        <script src="hospital-health.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="Hospital.js"></script>
     </head>
-    <body> <!--Self Checkup-->
-        <h1> Self Check Up </h2>
+    <body> 
+        <hr><!--Corona Stats in Country Start-->
+        <h1>Cases in Your Country</h1>
+        <h4>Country: </h4><h4 id="Country"></h4><br>
+        <h4>Cases: </h4><h4 id="Active"></h4><br>
+        <h4>Recovered: </h4><h4 id="Recovered"></h4><br>
+        <h4>Deaths: </h4><h4 id="Deaths"></h4><br>
+        <!--Corona Stats in Country End--><hr>
+        <!--Self Checkup Start-->
+        <h1> Self Check Up </h1>
         <h3> Take this short check up to see if you need medical assistance </h3>
-        <input type="checkbox" id="travel"> I have travelled in the last 14 days<br>
+        <input type="checkbox" id="travel"> I have travelled outside of the country in the last 14 days<br>
+        <input type="checkbox" id="resp"> I am taking care of someone with respiratory issues<br>
+        <input type="checkbox" id="breath"> I have shortness of breath<br>      
         <input type="checkbox" id="fever"> I have a fever over 38°C (100°F)<br>
         <input type="checkbox" id="tiredness"> I am more tired than usual<br>
         <input type="checkbox" id="cough"> I have a dry cough<br>
@@ -15,6 +26,7 @@
         <input type="checkbox" id="heart"> I have a heart problems<br>
         <input type="checkbox" id="diabetes"> I have diabetes<br>    
         <button onclick="checkup()">Check</button>
-        <p id="checkUPres"></p>    
+        <p id="checkUPres"></p>
+        <!--Self Checkup End--><hr> 
     </body>
 </html>
