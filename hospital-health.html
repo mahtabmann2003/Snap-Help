@@ -3,5 +3,35 @@
     <head>
         <title>Health and Hospital</title>
         <link rel="icon" type="png" href="https://ibb.co/2knq7Xv">
+        <script src="hospital-health.js"></script>
     </head>
+    <body> <!--Cases in the country-->
+        <button onclick="getLocation()">Search Now</button>"
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+            var settings = {
+                "async": true,
+                "crossDomain": true,
+                "url": "https://us1.locationiq.com/v1/reverse.php?key=03050b1d4403e4=-37.870662&lon=144.9803321&format=json",
+                "method": "GET"
+}
+
+                $.ajax(settings).done(function (response) {
+                    console.log(response);
+                });
+            var settings = {
+                "async": true,
+                "crossDomain": true,
+                "url": "https://covid-19-coronavirus-statistics.p.rapidapi.com/v1/stats?country=Columbia",
+                "method": "GET",
+                "headers": {
+                "x-rapidapi-host": "covid-19-coronavirus-statistics.p.rapidapi.com",
+                "x-rapidapi-key": "490e544f40msh6efb468e2630fd3p161b91jsn19177f172c77"
+                }
+            }
+        
+            $.ajax(settings).done(function (response) {
+                console.log(response);
+            });
+        </script>
+    </body>
 </html>
