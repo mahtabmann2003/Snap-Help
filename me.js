@@ -1,12 +1,5 @@
-var name;
+var name, age, gender, country, state, city, zip, street;
 
-var age;
-var gender;
-var country;
-var state;
-var city;
-var zip;
-var street;
 
 function savelocal () {
     name = document.getElementById("fname").value;
@@ -36,7 +29,7 @@ function validateForm () {
         return false;
     }
     age = document.getElementById("inputage").value;
-    if (inputage == "" ) {
+    if (inputage == "" )  {
         alert ("Age Must be filled out");
         return false;
     }
@@ -70,4 +63,5 @@ function validateForm () {
         alert ("Street Must be filled out");
         return false;
     }
+
 }

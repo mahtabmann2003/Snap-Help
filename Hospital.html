@@ -1,20 +1,19 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="utf-8">
         <title>Health and Hospital</title>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-        <script src="hospital-health.js"></script>
-        <link rel="stylesheet" href="assets/css/styles.css">
+        <script src="Hospital.js"></script>
     </head>
-    <body> 
-        <hr><!--Corona Stats in Country Start-->
+    <body>
+        <div name="COVID-19 Stats"><!--Corona Stats-->
         <h1>Cases in Your Country</h1>
-        <h4>Country: </h4><h4 id="Country"></h4><br>
-        <h4>Cases: </h4><h4 id="Active"></h4><br>
-        <h4>Recovered: </h4><h4 id="Recovered"></h4><br>
-        <h4>Deaths: </h4><h4 id="Deaths"></h4><br>
-        <!--Corona Stats in Country End--><hr>
-        <!--Self Checkup Start-->
+        <p>Country: </p><p id="Country"></p><br>
+        <p>Cases: </p><p id="Active"></p><br>
+        <p>Recovered: </p><p id="Recovered"></p><br>
+        <p>Deaths: </p><p id="Deaths"></p><br></div>
+        <div name="Self Check-Up"><!--Self Checkup-->
         <h1> Self Check Up </h1>
         <h3> Take this short check up to see if you need medical assistance </h3>
         <input type="checkbox" id="travel"> I have travelled outside of the country in the last 14 days<br>
@@ -27,7 +26,14 @@
         <input type="checkbox" id="heart"> I have a heart problems<br>
         <input type="checkbox" id="diabetes"> I have diabetes<br>    
         <button onclick="checkup()">Check</button>
-        <p id="checkUPres"></p>
-        <!--Self Checkup End--><hr> 
+        <p id="checkUPres"></p></div>
+        <div name="Nearest Hospitals"><!--Nearest Hospitals-->
+        <h1>Your Nearest Hospitals</h1>
+        <h3>Arranged from closest to farthest</h3>
+        <p id="location1"></p><br>
+        <p id="location2"></p><br>
+        <p id="location3"></p><br>
+        <p id="location4"></p><br>
+        <p id="location5"></p></div>
     </body>
 </html>
