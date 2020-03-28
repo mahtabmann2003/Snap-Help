@@ -26,7 +26,7 @@ input[type=text], select, textarea {
   
   /* Add a background color and some padding around the form */
   .containernum {
-    margin-top: -10%;
+    margin-top: auto;
     margin-left: auto;
     margin-right: auto;
     width: 600px;
