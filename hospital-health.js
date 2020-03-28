@@ -14,7 +14,7 @@ var cases;
 var recovered;
 var death;
 
-var settings = {
+var coronavirusStatisticsAPI = {
 	"async": true,
 	"crossDomain": true,
 	"url": "https://covid-19-data.p.rapidapi.com/country/code?format=undefined&code=" + countryCode,
@@ -25,7 +25,7 @@ var settings = {
 	}
 }
 
-$.ajax(settings).done(function (response) {
+$.ajax(coronavirusStatisticsAPI).done(function (response) {
     console.log(response);
     country = response[0].country;
     cases = response[0].confirmed;
