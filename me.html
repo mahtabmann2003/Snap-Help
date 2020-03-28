@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Snap Help</title>
+    <title>About Me</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bitter:400,700">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700">
@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="assets/css/Header-Dark.css">
     <link rel="stylesheet" href="assets/css/Navigation-Clean.css">
     <link rel="stylesheet" href="assets/css/styles.css">
+    <script src="me.js"></script>
 </head>
 <body style="background-color: #2d283e;color: #d1d7e0;">
     <div>
@@ -53,37 +54,21 @@
     <div class="containernum">
         <label for="name">Name</label>
         <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
         <label for="gender">Gender</label>
-        <select id="country" name="country">
+        <select id="gender" name="gender">
         <option value="male">Male</option>
         <option value="female">Female</option>
         <option value="other">Other</option>
         </select>
+
         <label for="age">Age</label><br>
         <input type="number" id="inputage" name="hoopla" placeholder="Your age..."><br><br>
         <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
+       
         <div class="form-group">
-            <input type="street" 
-               class="form-control" 
-               id="autocomplete" 
-               placeholder="Street">
-        
-            <input type="city" 
-               class="form-control" 
-               id="inputCity" 
-               placeholder="City">
-        
-            <input type="state" 
-               class="form-control" 
-               id="inputState" 
-               placeholder="State">
-        
-            <input type="zip" 
-               class="form-control" 
-               id="inputZip" 
-               placeholder="Zip">
-        
-            <select id="country" name="country" class="form-control">
+            <select id="country" name="country" class="form-control" placeholder="Country">
+                <option value="" disabled selected hidden>Country</option>
                 <option value="AFG">Afghanistan</option>
                 <option value="ALA">Åland Islands</option>
                 <option value="ALB">Albania</option>
@@ -333,10 +318,31 @@
                 <option value="YEM">Yemen</option>
                 <option value="ZMB">Zambia</option>
                 <option value="ZWE">Zimbabwe</option>
-              </select>
+            </select>
+            <input type="street" 
+               class="form-control" 
+               id="autocomplete" 
+               placeholder="Street">
+        
+            <input type="city" 
+               class="form-control" 
+               id="inputCity" 
+               placeholder="City">
+        
+            <input type="state" 
+               class="form-control" 
+               id="inputState" 
+               placeholder="State">
+        
+            <input type="zip" 
+               class="form-control" 
+               id="inputZip" 
+               placeholder="Zip">
+        
+           
       </div>
     
-      <input type="submit" value="Submit" onclick="">
+      <input type="submit" value="Submit" onclick="savelocal()">
   
     </form>
   </div>
