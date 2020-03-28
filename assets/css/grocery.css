@@ -1,0 +1,29 @@
+.grocery-row {
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:10px;
+}
+.grid{
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	grid-gap:10px;
+
+
+}
+img{
+	/*Styling all images with their base design*/
+	display:inline-block;
+	margin-top:20px;
+	padding:5px;
+	margin-bottom:5px;
+	width:125px;
+	height: 125px
+}
+
+
+.item{
+	border:2px solid #D1D7E0;
+}
