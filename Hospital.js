@@ -152,6 +152,8 @@ blockspring.runParsed(
         locationHo3 = res.params.data[47].name;
         locationHo4 = res.params.data[48].name;
         locationHo5 = res.params.data[49].name;
+        searchHOSP();
+        printStuffHosp();
     }
 )
 
@@ -235,7 +237,6 @@ function searchHOSP(){
             location5 = response.searchResults[4].name;
         });
     }
-    printStuffHosp();
 }
 
 function printStuffHosp() {
