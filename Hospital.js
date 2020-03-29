@@ -142,7 +142,7 @@ blockspring.runParsed(
         locationVa5 = res.params.data[39].name;
         
         locationMi1 = res.params.data[40].name;
-        locationMI2 = res.params.data[41].name;
+        locationMi2 = res.params.data[41].name;
         locationMi3 = res.params.data[42].name;
         locationMi4 = res.params.data[43].name;
         locationMi5 = res.params.data[44].name;
@@ -244,5 +244,5 @@ function printStuffHosp() {
     document.getElementById("location2").innerHTML = location2;
     document.getElementById("location3").innerHTML = location3;
     document.getElementById("location4").innerHTML = location4;
-    document.getElementById("location5").innerHTML = location5;    
+    document.getElementById("location5").innerHTML = location5;
 }
