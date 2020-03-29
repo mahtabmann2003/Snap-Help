@@ -25,7 +25,7 @@ function searchgrocery(){
 
 function addtocart(){
 	var inputamount = document.getElementById("input0").value
-	if (parseInt(Number.isInteger(inputamount))){
+	if (Number.isInteger(parseInt(inputamount))){
 	var cart = JSON.parse(localStorage.getItem("cart"))
 	cart.push( {
 		name:"Potatoes",
