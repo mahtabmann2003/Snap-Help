@@ -22,7 +22,6 @@ function searchgrocery(){
 		} 
 	}
 	}
-}
 
 function addtocart(){
 	var inputamount = document.getElementById("input0").value
