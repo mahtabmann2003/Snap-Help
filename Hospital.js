@@ -43,7 +43,6 @@ var settingsRONA = {
 
 $.ajax(settingsRONA).done(function (response) {
     console.log(response);
-    country = response[0].country;
     cases = response[0].confirmed;
     recovered = response[0].recovered;
     death = response[0].deaths;
@@ -51,7 +50,6 @@ $.ajax(settingsRONA).done(function (response) {
 });
 
 function printStuff() {
-    document.getElementById("Country").innerHTML = country;
     document.getElementById("Active").innerHTML = cases;
     document.getElementById("Recovered").innerHTML = recovered;
     document.getElementById("Deaths").innerHTML = death;
