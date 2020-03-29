@@ -157,70 +157,70 @@ blockspring.runParsed(
 )
 
 function searchHOSP(){
-    if (city == "Toronto"){
+    if (city == '"Toronto"'){
         location1 = locationTo1
         location2 = locationTo2
         location3 = locationTo3
         location4 = locationTo4
         location5 = locationTo5
     }
-    else if (city == "New York"){
+    else if (city == '"New York"'){
         location1 = locationNy1
         location2 = locationNy2
         location3 = locationNy3
         location4 = locationNy4
         location5 = locationNy5        
     }
-    else if (city == "Los Angeles"){
+    else if (city == '"Los Angeles"'){
         location1 = locationLa1
         location2 = locationLa2
         location3 = locationLa3
         location4 = locationLa4
         location5 = locationLa5        
     }
-    else if (city == "San Francisco"){
+    else if (city == '"San Francisco"'){
         location1 = locationSf1
         location2 = locationSf2
         location3 = locationSf3
         location4 = locationSf4
         location5 = locationSf5       
     }    
-    else if (city == "Chicago"){
+    else if (city == '"Chicago"'){
         location1 = locationCh1
         location2 = locationCh2
         location3 = locationCh3
         location4 = locationCh4
         location5 = locationCh5      
     } 
-    else if (city == "Pheonix"){
+    else if (city == '"Pheonix"'){
         location1 = locationPh1
         location2 = locationPh2
         location3 = locationPh3
         location4 = locationPh4
         location5 = locationPh5      
     } 
-    else if (city == "Seattle"){
+    else if (city == '"Seattle"'){
         location1 = locationSe1
         location2 = locationSe2
         location3 = locationSe3
         location4 = locationSe4
         location5 = locationSe5       
     } 
-    else if (city == "Vancouver"){
+    else if (city == '"Vancouver"'){
         location1 = locationVa1
         location2 = locationVa2
         location3 = locationVa3
         location4 = locationVa4
         location5 = locationVa5       
     }
-    else if (city == "Miami"){
+    else if (city == '"Miami"'){
         location1 = locationMi1
         location2 = locationMi2
         location3 = locationMi3
         location4 = locationMi4
         location5 = locationMi5       
     }     
-    else if (city == "Houston"){
+    else if (city == '"Houston"'){
         location1 = locationHo1
         location2 = locationHo2
         location3 = locationHo3
