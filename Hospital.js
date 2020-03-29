@@ -153,7 +153,7 @@ blockspring.runParsed(
         locationHo4 = res.params.data[48].name;
         locationHo5 = res.params.data[49].name;
         searchHOSP();
-        setTimeout(function() {printStuffHosp()}, 5000);
+        setTimeout(function() {printStuffHosp()}, 1000);
         
     }
 )
