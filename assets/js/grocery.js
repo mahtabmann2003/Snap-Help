@@ -41,7 +41,7 @@ function addtocart(){
 }
 function addtocart1(){
 	var inputamount = document.getElementById("input1").value
-	if (parseInt(Number.isInteger(inputamount))){
+	if (Number.isInteger(parseInt(inputamount))){
 	var cart = JSON.parse(localStorage.getItem("cart"))
 	cart.push( {
 		name:"Onions",
@@ -57,7 +57,7 @@ function addtocart1(){
 }
 function addtocart2(){
 	var inputamount = document.getElementById("input2").value
-	if (parseInt(Number.isInteger(inputamount))){
+	if (Number.isInteger(parseInt(inputamount))){
 	var cart = JSON.parse(localStorage.getItem("cart"))
 	cart.push( {
 		name:"Cucumbers",
@@ -73,7 +73,7 @@ function addtocart2(){
 }
 function addtocart3(){
 	var inputamount = document.getElementById("input3").value
-	if (parseInt(Number.isInteger(inputamount))){
+	if (Number.isInteger(parseInt(inputamount))){
 	var cart = JSON.parse(localStorage.getItem("cart"))
 	cart.push({
 		name:"Lettuce",
@@ -89,7 +89,7 @@ function addtocart3(){
 }
 function addtocart4(){
 	var inputamount = document.getElementById("input4").value
-	if (parseInt(Number.isInteger(inputamount))){
+	if (Number.isInteger(parseInt(inputamount))){
 	var cart = JSON.parse(localStorage.getItem("cart"))
 	cart.push( {
 		name:"Garlic",
@@ -105,7 +105,7 @@ function addtocart4(){
 }
 function addtocart5(){
 	var inputamount = document.getElementById("input5").value
-	if (parseInt(Number.isInteger(inputamount))){
+	if (Number.isInteger(parseInt(inputamount))){
 	var cart = JSON.parse(localStorage.getItem("cart"))
 	cart.push( {
 		name:"Saladmix",
@@ -121,7 +121,7 @@ function addtocart5(){
 }
 function addtocart6(){
 	var inputamount = document.getElementById("input6").value
-	if (parseInt(Number.isInteger(inputamount))){
+	if (Number.isInteger(parseInt(inputamount))){
 	var cart = JSON.parse(localStorage.getItem("cart"))
 	cart.push( {
 		name:"Apples",
@@ -138,7 +138,7 @@ function addtocart6(){
 
 function addtocart7(){
 	var inputamount = document.getElementById("input7").value
-	if (parseInt(Number.isInteger(inputamount))){
+	if (Number.isInteger(parseInt(inputamount))){
 	var cart = JSON.parse(localStorage.getItem("cart"))
 	cart.push( {
 		name:"Oranges",
@@ -154,7 +154,7 @@ function addtocart7(){
 }
 function addtocart8(){
 	var inputamount = document.getElementById("input8").value
-	if (parseInt(Number.isInteger(inputamount))){
+	if (Number.isInteger(parseInt(inputamount))){
 	var cart = JSON.parse(localStorage.getItem("cart"))
 	cart.push( {
 		name:"Bananas",
@@ -170,7 +170,7 @@ function addtocart8(){
 }
 function addtocart9(){
 	var inputamount = document.getElementById("input9").value
-	if (parseInt(Number.isInteger(inputamount))){
+	if (Number.isInteger(parseInt(inputamount))){
 	var cart = JSON.parse(localStorage.getItem("cart"))
 	cart.push( {
 		name:"Lemons",
@@ -188,7 +188,7 @@ function addtocart9(){
 
 function addtocart10(){
 	var inputamount = document.getElementById("input10").value
-	if (parseInt(Number.isInteger(inputamount))){
+	if (Number.isInteger(parseInt(inputamount))){
 	var cart = JSON.parse(localStorage.getItem("cart"))
 	cart.push( {
 		name:"Milk",
@@ -204,7 +204,7 @@ function addtocart10(){
 }
 function addtocart11(){
 	var inputamount = document.getElementById("input11").value
-	if (parseInt(Number.isInteger(inputamount))){
+	if (Number.isInteger(parseInt(inputamount))){
 	var cart = JSON.parse(localStorage.getItem("cart"))
 	cart.push( {
 		name:"Cheese",
@@ -220,7 +220,7 @@ function addtocart11(){
 }
 function addtocart12(){
 	var inputamount = document.getElementById("input12").value
-	if (parseInt(Number.isInteger(inputamount))){
+	if (Number.isInteger(parseInt(inputamount))){
 	var cart = JSON.parse(localStorage.getItem("cart"))
 	cart.push( {
 		name:"Beans",
@@ -237,7 +237,7 @@ function addtocart12(){
 
 function addtocart13(){
 	var inputamount = document.getElementById("input13").value
-	if (parseInt(Number.isInteger(inputamount))){
+	if (Number.isInteger(parseInt(inputamount))){
 	var cart = JSON.parse(localStorage.getItem("cart"))
 	cart.push( {
 		name:"Mac N' Cheese",
@@ -254,7 +254,7 @@ function addtocart13(){
 
 function addtocart14(){
 	var inputamount = document.getElementById("input14").value
-	if (parseInt(Number.isInteger(inputamount))){
+	if (Number.isInteger(parseInt(inputamount))){
 	var cart = JSON.parse(localStorage.getItem("cart"))
 	cart.push( {
 		name:"Noodles",
@@ -270,7 +270,7 @@ function addtocart14(){
 }
 function addtocart15(){
 	var inputamount = document.getElementById("input15").value
-	if (parseInt(Number.isInteger(inputamount))){
+	if (Number.isInteger(parseInt(inputamount))){
 	var cart = JSON.parse(localStorage.getItem("cart"))
 	cart.push( {
 		name:"Pasta",
@@ -286,7 +286,7 @@ function addtocart15(){
 }
 function addtocart16(){
 	var inputamount = document.getElementById("input16").value
-	if (parseInt(Number.isInteger(inputamount))){
+	if (Number.isInteger(parseInt(inputamount))){
 	var cart = JSON.parse(localStorage.getItem("cart"))
 	cart.push( {
 		name:"Rice",
@@ -302,7 +302,7 @@ function addtocart16(){
 }
 function addtocart17(){
 	var inputamount = document.getElementById("input17").value
-	if (parseInt(Number.isInteger(inputamount))){
+	if (Number.isInteger(parseInt(inputamount))){
 	var cart = JSON.parse(localStorage.getItem("cart"))
 	cart.push( {
 		name:"Toiletpaper",
@@ -318,7 +318,7 @@ function addtocart17(){
 }
 function addtocart18(){
 	var inputamount = document.getElementById("input18").value
-	if (parseInt(Number.isInteger(inputamount))){
+	if (Number.isInteger(parseInt(inputamount))){
 	var cart = JSON.parse(localStorage.getItem("cart"))
 	cart.push( {
 		name:"Handsoap",
@@ -335,7 +335,7 @@ function addtocart18(){
 
 function addtocart19(){
 	var inputamount = document.getElementById("input19").value
-	if (parseInt(Number.isInteger(inputamount))){
+	if (Number.isInteger(parseInt(inputamount))){
 	var cart = JSON.parse(localStorage.getItem("cart"))
 	cart.push( {
 		name:"Sanitizer",
@@ -351,7 +351,7 @@ function addtocart19(){
 }
 function addtocart20(){
 	var inputamount = document.getElementById("input20").value
-	if (parseInt(Number.isInteger(inputamount))){
+	if (Number.isInteger(parseInt(inputamount))){
 	var cart = JSON.parse(localStorage.getItem("cart"))
 	cart.push( {
 		name:"Toothpaste",
@@ -367,7 +367,7 @@ function addtocart20(){
 }
 function addtocart21(){
 	var inputamount = document.getElementById("input21").value
-	if (parseInt(Number.isInteger(inputamount))){
+	if (Number.isInteger(parseInt(inputamount))){
 	var cart = JSON.parse(localStorage.getItem("cart"))
 	cart.push( {
 		name:"Bodysoap",
@@ -384,7 +384,7 @@ function addtocart21(){
 }
 function addtocart22(){
 	var inputamount = document.getElementById("input22").value
-	if (parseInt(Number.isInteger(inputamount))){
+	if (Number.isInteger(parseInt(inputamount))){
 	var cart = JSON.parse(localStorage.getItem("cart"))
 	cart.push( {
 		name:"Spoons and Forks",
@@ -401,7 +401,7 @@ function addtocart22(){
 
 function addtocart23(){
 	var inputamount = document.getElementById("input23").value
-	if (parseInt(Number.isInteger(inputamount))){
+	if (Number.isInteger(parseInt(inputamount))){
 	var cart = JSON.parse(localStorage.getItem("cart"))
 	cart.push( {
 		name:"Paperplates",
@@ -418,7 +418,7 @@ function addtocart23(){
 
 function addtocart24(){
 	var inputamount = document.getElementById("input24").value
-	if (parseInt(Number.isInteger(inputamount))){
+	if (Number.isInteger(parseInt(inputamount))){
 	var cart = JSON.parse(localStorage.getItem("cart"))
 	cart.push( {
 		name:"Water Bottle Pack",
