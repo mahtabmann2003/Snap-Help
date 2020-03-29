@@ -243,6 +243,6 @@ function printStuffHosp() {
     document.getElementById("location1").innerHTML = location1;
     document.getElementById("location2").innerHTML = location2;
     document.getElementById("location3").innerHTML = location3;
-    document.getElementById("location4").innerHTML = loaction4;
+    document.getElementById("location4").innerHTML = location4;
     document.getElementById("location5").innerHTML = location5;    
 }
