@@ -469,7 +469,11 @@ function checkout(){
 	div.appendChild(p);
 }
 
-function paymentConfirmaion() {
-	alert("Payment was succesfull")
+function formValidationTwo () {
+	if ((document.getElementById("checkname").value == null) || (document.getElementById("checkemail").value ==null)||(document.getElementById("checkaddress").value == null) || (document.getElementById("checkcity").value ==null)||(document.getElementById("checkstate").value == null) || (document.getElementById("checkzip").value ==null)||(document.getElementById("checkcardname").value == null) || (document.getElementById("checkcardnum").value ==null)||(document.getElementById("checkexpmonth").value == null) || (document.getElementById("checkexyear").value ==null) || (document.getElementById("checkcvv").value ==null)){
+		alert("All Information Must Be Filled Out");
+		return false;
+	}else {
+		alert("Payment was successful");
+	}
 }
-
