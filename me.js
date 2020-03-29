@@ -39,4 +39,8 @@ function validateForm () {
         alert ("All Information Must Be Filled Out");
         return false;
     }
+
+    else {
+        alert ("Confirmed")
+    }
 }
