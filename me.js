@@ -26,17 +26,17 @@ function savelocal () {
 }
 
 
-// function validateForm () {
-//     name = document.getElementById("fname").value;
-//     age = document.getElementById("inputage").value;
-//     gender = document.getElementById("gender").value;
-//     country = document.getElementById("country").value;
-//     city = document.getElementById("inputCity").value;
-//     state = document.getElementById("inputState").value;
-//     zip = document.getElementById("inputZip").value;
-//     street = document.getElementById("autocomplete").value;
-//     if (name == "" ||  age == "" || gender == "" || country == "" || city == "" || state == "" || zip == "" || street == "") {
-//         alert ("All Information Must Be Filled Out");
-//         return false;
-//     }
-// }
+function validateForm () {
+    name = document.getElementById("fname").value;
+    age = document.getElementById("inputage").value;
+    gender = document.getElementById("gender").value;
+    country = document.getElementById("country").value;
+    city = document.getElementById("inputCity").value;
+    state = document.getElementById("inputState").value;
+    zip = document.getElementById("inputZip").value;
+    street = document.getElementById("autocomplete").value;
+    if (name == "" ||  age == "" || gender == "" || country == "" || city == "" || state == "" || zip == "" || street == "") {
+        alert ("All Information Must Be Filled Out");
+        return false;
+    }
+}

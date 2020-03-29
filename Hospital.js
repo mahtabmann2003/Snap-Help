@@ -13,6 +13,7 @@ const countryCode = localStorage.getItem('country');
 var cases;
 var recovered;
 var death;
+var realCity = localStorage.getItem('inputCity')
 var address = localStorage.getItem('autocomplete').split(' ').join('+');
 var city = localStorage.getItem('inputCity').split(' ').join('+');
 var state = localStorage.getItem('inputState').split(' ').join('+');
@@ -157,70 +158,70 @@ blockspring.runParsed(
 )
 
 function searchHOSP(){
-    if (city == '"Toronto"'){
+    if (realCity == '"Toronto"'){
         location1 = locationTo1
         location2 = locationTo2
         location3 = locationTo3
         location4 = locationTo4
         location5 = locationTo5
     }
-    else if (city == '"New York"'){
+    else if (realCity == '"New York"'){
         location1 = locationNy1
         location2 = locationNy2
         location3 = locationNy3
         location4 = locationNy4
         location5 = locationNy5        
     }
-    else if (city == '"Los Angeles"'){
+    else if (realCity == '"Los Angeles"'){
         location1 = locationLa1
         location2 = locationLa2
         location3 = locationLa3
         location4 = locationLa4
         location5 = locationLa5        
     }
-    else if (city == '"San Francisco"'){
+    else if (realCity == '"San Francisco"'){
         location1 = locationSf1
         location2 = locationSf2
         location3 = locationSf3
         location4 = locationSf4
         location5 = locationSf5       
     }    
-    else if (city == '"Chicago"'){
+    else if (realCity == '"Chicago"'){
         location1 = locationCh1
         location2 = locationCh2
         location3 = locationCh3
         location4 = locationCh4
         location5 = locationCh5      
     } 
-    else if (city == '"Pheonix"'){
+    else if (realCity == '"Pheonix"'){
         location1 = locationPh1
         location2 = locationPh2
         location3 = locationPh3
         location4 = locationPh4
         location5 = locationPh5      
     } 
-    else if (city == '"Seattle"'){
+    else if (realCity == '"Seattle"'){
         location1 = locationSe1
         location2 = locationSe2
         location3 = locationSe3
         location4 = locationSe4
         location5 = locationSe5       
     } 
-    else if (city == '"Vancouver"'){
+    else if (realCity == '"Vancouver"'){
         location1 = locationVa1
         location2 = locationVa2
         location3 = locationVa3
         location4 = locationVa4
         location5 = locationVa5       
     }
-    else if (city == '"Miami"'){
+    else if (realCity == '"Miami"'){
         location1 = locationMi1
         location2 = locationMi2
         location3 = locationMi3
         location4 = locationMi4
         location5 = locationMi5       
     }     
-    else if (city == '"Houston"'){
+    else if (realCity == '"Houston"'){
         location1 = locationHo1
         location2 = locationHo2
         location3 = locationHo3
