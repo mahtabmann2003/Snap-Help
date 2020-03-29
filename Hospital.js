@@ -33,7 +33,7 @@ var locationHo1, locationHo2, locationHo3, locationHo4, locationHo5;
 var settingsRONA = {
 	"async": true,
 	"crossDomain": true,
-	"url": "https://covid-19-data.p.rapidapi.com/country/code?format=undefined&code=" + countryCode,
+	"url": "https://covid-19-data.p.rapidapi.com/country/code?format=undefined&code=" + countryCode.split('"').join(''),
 	"method": "GET",
 	"headers": {
 		"x-rapidapi-host": "covid-19-data.p.rapidapi.com",
