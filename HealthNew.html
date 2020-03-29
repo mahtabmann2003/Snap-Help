@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Hospital (copy)</title>
+    <script src="Health.js"></script>
     <link rel="stylesheet" href="assets3/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bitter:400,700">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700">
@@ -29,23 +30,16 @@
                         <div class="form-group"><label for="search-field"></label></div>
                     </form><span class="navbar-text"></span>
                     <ul class="nav navbar-nav">
-                        <li class="nav-item" role="presentation"><a class="nav-link active" href="#" style="color: #d1d7e0;">Me</a></li>
-                        <li class="nav-item" role="presentation"></li>
-                        <li class="nav-item" role="presentation"><a class="nav-link" href="#" style="color: #d1d7e0;">Groceries</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link active" href="me.html" style="color: #d1d7e0;">Me</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="groceries.html" style="color: #d1d7e0;">Groceries</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link active" href="HospitalNew.html" style="color: #d1d7e0;">Health</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="HealthNew.html" style="color: #d1d7e0;">Hospital</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="help.html" style="color: #d1d7e0;">Help</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link active" href="https://www.reddit.com/r/dankmemes/" style="color: #d1d7e0;">Memes</a></li>
                     </ul>
-                    <ul class="nav navbar-nav">
-                        <li class="nav-item" role="presentation"><a class="nav-link active" href="#" style="color: #d1d7e0;">Health</a></li>
-                        <li class="nav-item" role="presentation"><a class="nav-link" href="#" style="color: #d1d7e0;">Hospital</a></li>
-                        <li class="nav-item" role="presentation"><a class="nav-link" href="#" style="color: #d1d7e0;">Health</a></li>
-                    </ul>
-                    <ul class="nav navbar-nav">
-                        <li class="nav-item" role="presentation"><a class="nav-link active" href="#" style="color: #d1d7e0;">Memes</a></li>
-                        <li class="nav-item" role="presentation"></li>
-                        <li class="nav-item" role="presentation"></li>
-                    </ul>
+                </div>
             </div>
-    </div>
-    </nav>
+        </nav>
     </div>
     <div class="register-photo" style="background-color: rgba(241,247,252,0);">
         <div class="form-container" style="color: #6f7a85;">
@@ -58,8 +52,8 @@
                 <div class="form-group"><input class="form-control" type="text" id="hospCity" placeholder="Hospital City" name="hospitalCity" required=""></div>
                 <p class="text-center" style="color: #dfe7f1;">Image of Work ID:</p>
                 <div class="form-group"><input type="file" id="idCard" style="color: #dfe7f1;" accept="image/*" required=""></div>
-                <div class="form-group"><button class="btn btn-primary btn-block" type="submit" style="background-color: #802bb1;color: #dfe7f1;">Submit for Review</button></div>
-                <div class="form-group text-center"><a class="text-center" href="#" style="color: #dfe7f1;">Click Here to View our Current Database</a></div>
+                <div class="form-group"><button class="btn btn-primary btn-block" type="submit" style="background-color: #802bb1;color: #dfe7f1;"onclick="submission()">Submit for Review</button></div>
+                <div class="form-group text-center"><a class="text-center" href="https://docs.google.com/spreadsheets/d/1_PNLPxrX6yDo5gk9isiup7JBQgAuf2GqzwX15_T1CiM/edit?usp=sharing" style="color: #dfe7f1;">Click Here to View our Current Database</a></div>
             </form>
         </div>
     </div>
