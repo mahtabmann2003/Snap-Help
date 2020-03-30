@@ -46,7 +46,7 @@ function addtocart(){
 }
 function removecart(){
 	var name = "Potatoes"
-	var cart = localStorage.getItem("cart")
+	var cart = JSON.parse(localStorage.getItem("cart"))
 	for (i = 0; i< cart.length;i++){
 		if (cart[i].name == name){
 			cart.splice(i)
@@ -76,7 +76,7 @@ function addtocart1(){
 }
 function removecart1(){
 	var name = "Onions"
-	var cart = localStorage.getItem("cart")
+	var cart = JSON.parse(localStorage.getItem("cart"))
 	for (i = 0; i< cart.length;i++){
 		if (cart[i].name == name){
 			cart.splice(i)
@@ -106,7 +106,7 @@ function addtocart2(){
 }
 function removecart2(){
 	var name = "Cucumbers"
-	var cart = localStorage.getItem("cart")
+	var cart = JSON.parse(localStorage.getItem("cart"))
 	for (i = 0; i< cart.length;i++){
 		if (cart[i].name == name){
 			cart.splice(i)
@@ -136,7 +136,7 @@ function addtocart3(){
 }
 function removecart3(){
 	var name = "Lettuce"
-	var cart = localStorage.getItem("cart")
+	var cart = JSON.parse(localStorage.getItem("cart"))
 	for (i = 0; i< cart.length;i++){
 		if (cart[i].name == name){
 			cart.splice(i)
@@ -166,7 +166,7 @@ function addtocart4(){
 }
 function removecart4(){
 	var name = "Garlic"
-	var cart = localStorage.getItem("cart")
+	var cart = JSON.parse(localStorage.getItem("cart"))
 	for (i = 0; i< cart.length;i++){
 		if (cart[i].name == name){
 			cart.splice(i)
@@ -196,7 +196,7 @@ function addtocart5(){
 }
 function removecart5(){
 	var name = "Saladmix"
-	var cart = localStorage.getItem("cart")
+	var cart = JSON.parse(localStorage.getItem("cart"))
 	for (i = 0; i< cart.length;i++){
 		if (cart[i].name == name){
 			cart.splice(i)
@@ -226,7 +226,7 @@ function addtocart6(){
 }
 function removecart6(){
 	var name = "Apples"
-	var cart = localStorage.getItem("cart")
+	var cart = JSON.parse(localStorage.getItem("cart"))
 	for (i = 0; i< cart.length;i++){
 		if (cart[i].name == name){
 			cart.splice(i)
@@ -256,7 +256,7 @@ function addtocart7(){
 }
 function removecart7(){
 	var name = "Oranges"
-	var cart = localStorage.getItem("cart")
+	var cart = JSON.parse(localStorage.getItem("cart"))
 	for (i = 0; i< cart.length;i++){
 		if (cart[i].name == name){
 			cart.splice(i)
@@ -286,7 +286,7 @@ function addtocart8(){
 }
 function removecart8(){
 	var name = "Bananas"
-	var cart = localStorage.getItem("cart")
+	var cart = JSON.parse(localStorage.getItem("cart"))
 	for (i = 0; i< cart.length;i++){
 		if (cart[i].name == name){
 			cart.splice(i)
@@ -316,7 +316,7 @@ function addtocart9(){
 }
 function removecart9(){
 	var name = "Lemons"
-	var cart = localStorage.getItem("cart")
+	var cart = JSON.parse(localStorage.getItem("cart"))
 	for (i = 0; i< cart.length;i++){
 		if (cart[i].name == name){
 			cart.splice(i)
@@ -347,7 +347,7 @@ function addtocart10(){
 }
 function removecart10(){
 	var name = "Milk"
-	var cart = localStorage.getItem("cart")
+	var cart = JSON.parse(localStorage.getItem("cart"))
 	for (i = 0; i< cart.length;i++){
 		if (cart[i].name == name){
 			cart.splice(i)
@@ -377,7 +377,7 @@ function addtocart11(){
 }
 function removecart11(){
 	var name = "Cheese"
-	var cart = localStorage.getItem("cart")
+	var cart = JSON.parse(localStorage.getItem("cart"))
 	for (i = 0; i< cart.length;i++){
 		if (cart[i].name == name){
 			cart.splice(i)
@@ -407,7 +407,7 @@ function addtocart12(){
 }
 function removecart12(){
 	var name = "Beans"
-	var cart = localStorage.getItem("cart")
+	var cart = JSON.parse(localStorage.getItem("cart"))
 	for (i = 0; i< cart.length;i++){
 		if (cart[i].name == name){
 			cart.splice(i)
@@ -437,7 +437,7 @@ function addtocart13(){
 }
 function removecart13(){
 	var name = "Mac N' Cheese"
-	var cart = localStorage.getItem("cart")
+	var cart = JSON.parse(localStorage.getItem("cart"))
 	for (i = 0; i< cart.length;i++){
 		if (cart[i].name == name){
 			cart.splice(i)
@@ -467,7 +467,7 @@ function addtocart14(){
 }
 function removecart14(){
 	var name = "Noodles"
-	var cart = localStorage.getItem("cart")
+	var cart = JSON.parse(localStorage.getItem("cart"))
 	for (i = 0; i< cart.length;i++){
 		if (cart[i].name == name){
 			cart.splice(i)
@@ -497,7 +497,7 @@ function addtocart15(){
 }
 function removecart15(){
 	var name = "Pasta"
-	var cart = localStorage.getItem("cart")
+	var cart = JSON.parse(localStorage.getItem("cart"))
 	for (i = 0; i< cart.length;i++){
 		if (cart[i].name == name){
 			cart.splice(i)
@@ -527,7 +527,7 @@ function addtocart16(){
 }
 function removecart16(){
 	var name = "Rice"
-	var cart = localStorage.getItem("cart")
+	var cart = JSON.parse(localStorage.getItem("cart"))
 	for (i = 0; i< cart.length;i++){
 		if (cart[i].name == name){
 			cart.splice(i)
@@ -557,7 +557,7 @@ function addtocart17(){
 }
 function removecart17(){
 	var name = "Toiletpaper"
-	var cart = localStorage.getItem("cart")
+	var cart = JSON.parse(localStorage.getItem("cart"))
 	for (i = 0; i< cart.length;i++){
 		if (cart[i].name == name){
 			cart.splice(i)
@@ -587,7 +587,7 @@ function addtocart18(){
 }
 function removecart18(){
 	var name = "Handsoap"
-	var cart = localStorage.getItem("cart")
+	var cart = JSON.parse(localStorage.getItem("cart"))
 	for (i = 0; i< cart.length;i++){
 		if (cart[i].name == name){
 			cart.splice(i)
@@ -617,7 +617,7 @@ function addtocart19(){
 }
 function removecart19(){
 	var name = "Sanitizer"
-	var cart = localStorage.getItem("cart")
+	var cart = JSON.parse(localStorage.getItem("cart"))
 	for (i = 0; i< cart.length;i++){
 		if (cart[i].name == name){
 			cart.splice(i)
@@ -647,7 +647,7 @@ function addtocart20(){
 }
 function removecart20(){
 	var name = "Toothpaste"
-	var cart = localStorage.getItem("cart")
+	var cart = JSON.parse(localStorage.getItem("cart"))
 	for (i = 0; i< cart.length;i++){
 		if (cart[i].name == name){
 			cart.splice(i)
@@ -678,7 +678,7 @@ function addtocart21(){
 }
 function removecart21(){
 	var name = "Bodysoap"
-	var cart = localStorage.getItem("cart")
+	var cart = JSON.parse(localStorage.getItem("cart"))
 	for (i = 0; i< cart.length;i++){
 		if (cart[i].name == name){
 			cart.splice(i)
@@ -708,7 +708,7 @@ function addtocart22(){
 }
 function removecart22(){
 	var name = "Spoons and Forks"
-	var cart = localStorage.getItem("cart")
+	var cart = JSON.parse(localStorage.getItem("cart"))
 	for (i = 0; i< cart.length;i++){
 		if (cart[i].name == name){
 			cart.splice(i)
@@ -738,7 +738,7 @@ function addtocart23(){
 }
 function removecart23(){
 	var name = "Paperplates"
-	var cart = localStorage.getItem("cart")
+	var cart = JSON.parse(localStorage.getItem("cart"))
 	for (i = 0; i< cart.length;i++){
 		if (cart[i].name == name){
 			cart.splice(i)
@@ -768,7 +768,7 @@ function addtocart24(){
 }
 function removecart24(){
 	var name = "Water Bottle Pack"
-	var cart = localStorage.getItem("cart")
+	var cart = JSON.parse(localStorage.getItem("cart"))
 	for (i = 0; i< cart.length;i++){
 		if (cart[i].name == name){
 			cart.splice(i)
