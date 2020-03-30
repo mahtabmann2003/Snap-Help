@@ -845,5 +845,8 @@ function formValidationTwo () {
 		var cart = localStorage.getItem("cart")
 		var cart = []
 		localStorage.setItem("cart",JSON.stringify(cart))
+		var elem = document.getElementById("listing");
+		elem.parentNode.removeChild(elem);
+		document.getElementById("container1").createElement("DIV").setAttribute("id","listing")
 	}
 }
