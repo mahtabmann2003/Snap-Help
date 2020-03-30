@@ -834,6 +834,11 @@ function checkout(){
 	p.appendChild(node);
 	var div = document.getElementById("listing");
 	div.appendChild(p);
+	var p = document.createElement("p");
+	var node = document.createTextNode("---------------------------------------------------------");
+	p.appendChild(node);
+	var div = document.getElementById("listing");
+	div.appendChild(p);
 }
 
 function formValidationTwo () {
@@ -845,8 +850,5 @@ function formValidationTwo () {
 		var cart = localStorage.getItem("cart")
 		var cart = []
 		localStorage.setItem("cart",JSON.stringify(cart))
-		var elem = document.getElementById("listing");
-		elem.parentNode.removeChild(elem);
-		document.getElementById("container1").createElement("DIV").setAttribute("id","listing")
 	}
 }
