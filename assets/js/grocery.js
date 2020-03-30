@@ -769,7 +769,7 @@ function addtocart24(){
 function removecart24(){
 	var name = "Water Bottle Pack"
 	var cart = JSON.parse(localStorage.getItem("cart"))
-	for (i = 0; i< cart.length;i++){
+	for (i = 0; i < cart.length;i++){
 		if (cart[i].name == name){
 			cart.splice(i)
 		}
