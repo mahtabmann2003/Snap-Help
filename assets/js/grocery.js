@@ -52,6 +52,7 @@ function removecart(){
 			cart.splice(i)
 		}
 	}
+	localStorage.setItem("cart",JSON.stringify(cart))
 }
 function addtocart1(){
 	var inputamount = document.getElementById("input1").value
@@ -82,6 +83,7 @@ function removecart1(){
 			cart.splice(i)
 		}
 	}
+	localStorage.setItem("cart",JSON.stringify(cart))
 }
 function addtocart2(){
 	var inputamount = document.getElementById("input2").value
@@ -112,6 +114,7 @@ function removecart2(){
 			cart.splice(i)
 		}
 	}
+	localStorage.setItem("cart",JSON.stringify(cart))
 }
 function addtocart3(){
 	var inputamount = document.getElementById("input3").value
@@ -142,6 +145,7 @@ function removecart3(){
 			cart.splice(i)
 		}
 	}
+	localStorage.setItem("cart",JSON.stringify(cart))
 }
 function addtocart4(){
 	var inputamount = document.getElementById("input4").value
@@ -172,6 +176,7 @@ function removecart4(){
 			cart.splice(i)
 		}
 	}
+	localStorage.setItem("cart",JSON.stringify(cart))
 }
 function addtocart5(){
 	var inputamount = document.getElementById("input5").value
@@ -202,6 +207,7 @@ function removecart5(){
 			cart.splice(i)
 		}
 	}
+	localStorage.setItem("cart",JSON.stringify(cart))
 }
 function addtocart6(){
 	var inputamount = document.getElementById("input6").value
@@ -232,6 +238,7 @@ function removecart6(){
 			cart.splice(i)
 		}
 	}
+	localStorage.setItem("cart",JSON.stringify(cart))
 }
 function addtocart7(){
 	var inputamount = document.getElementById("input7").value
@@ -262,6 +269,7 @@ function removecart7(){
 			cart.splice(i)
 		}
 	}
+	localStorage.setItem("cart",JSON.stringify(cart))
 }
 function addtocart8(){
 	var inputamount = document.getElementById("input8").value
@@ -292,6 +300,7 @@ function removecart8(){
 			cart.splice(i)
 		}
 	}
+	localStorage.setItem("cart",JSON.stringify(cart))
 }
 function addtocart9(){
 	var inputamount = document.getElementById("input9").value
@@ -322,6 +331,7 @@ function removecart9(){
 			cart.splice(i)
 		}
 	}
+	localStorage.setItem("cart",JSON.stringify(cart))
 }
 
 function addtocart10(){
@@ -353,6 +363,7 @@ function removecart10(){
 			cart.splice(i)
 		}
 	}
+	localStorage.setItem("cart",JSON.stringify(cart))
 }
 function addtocart11(){
 	var inputamount = document.getElementById("input11").value
@@ -383,6 +394,7 @@ function removecart11(){
 			cart.splice(i)
 		}
 	}
+	localStorage.setItem("cart",JSON.stringify(cart))
 }
 function addtocart12(){
 	var inputamount = document.getElementById("input12").value
@@ -413,6 +425,7 @@ function removecart12(){
 			cart.splice(i)
 		}
 	}
+	localStorage.setItem("cart",JSON.stringify(cart))
 }
 function addtocart13(){
 	var inputamount = document.getElementById("input13").value
@@ -443,6 +456,7 @@ function removecart13(){
 			cart.splice(i)
 		}
 	}
+	localStorage.setItem("cart",JSON.stringify(cart))
 }
 function addtocart14(){
 	var inputamount = document.getElementById("input14").value
@@ -473,6 +487,7 @@ function removecart14(){
 			cart.splice(i)
 		}
 	}
+	localStorage.setItem("cart",JSON.stringify(cart))
 }
 function addtocart15(){
 	var inputamount = document.getElementById("input15").value
@@ -503,6 +518,7 @@ function removecart15(){
 			cart.splice(i)
 		}
 	}
+	localStorage.setItem("cart",JSON.stringify(cart))
 }
 function addtocart16(){
 	var inputamount = document.getElementById("input16").value
@@ -533,6 +549,7 @@ function removecart16(){
 			cart.splice(i)
 		}
 	}
+	localStorage.setItem("cart",JSON.stringify(cart))
 }
 function addtocart17(){
 	var inputamount = document.getElementById("input17").value
@@ -563,6 +580,7 @@ function removecart17(){
 			cart.splice(i)
 		}
 	}
+	localStorage.setItem("cart",JSON.stringify(cart))
 }
 function addtocart18(){
 	var inputamount = document.getElementById("input18").value
@@ -593,6 +611,7 @@ function removecart18(){
 			cart.splice(i)
 		}
 	}
+	localStorage.setItem("cart",JSON.stringify(cart))
 }
 function addtocart19(){
 	var inputamount = document.getElementById("input19").value
@@ -623,6 +642,7 @@ function removecart19(){
 			cart.splice(i)
 		}
 	}
+	localStorage.setItem("cart",JSON.stringify(cart))
 }
 function addtocart20(){
 	var inputamount = document.getElementById("input20").value
@@ -653,6 +673,7 @@ function removecart20(){
 			cart.splice(i)
 		}
 	}
+	localStorage.setItem("cart",JSON.stringify(cart))
 }
 function addtocart21(){
 	var inputamount = document.getElementById("input21").value
@@ -684,6 +705,7 @@ function removecart21(){
 			cart.splice(i)
 		}
 	}
+	localStorage.setItem("cart",JSON.stringify(cart))
 }
 function addtocart22(){
 	var inputamount = document.getElementById("input22").value
@@ -714,6 +736,7 @@ function removecart22(){
 			cart.splice(i)
 		}
 	}
+	localStorage.setItem("cart",JSON.stringify(cart))
 }
 function addtocart23(){
 	var inputamount = document.getElementById("input23").value
@@ -744,6 +767,7 @@ function removecart23(){
 			cart.splice(i)
 		}
 	}
+	localStorage.setItem("cart",JSON.stringify(cart))
 }
 function addtocart24(){
 	var inputamount = document.getElementById("input24").value
@@ -774,6 +798,7 @@ function removecart24(){
 			cart.splice(i)
 		}
 	}
+	localStorage.setItem("cart",JSON.stringify(cart))
 }
 function checkout(){
 	document.getElementById("myForm").style.display = "block"
