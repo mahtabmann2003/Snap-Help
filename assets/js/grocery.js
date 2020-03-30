@@ -600,5 +600,8 @@ function formValidationTwo () {
 		return false;
 	}else {
 		alert("Payment was successful");
+		var cart = localStorage.getItem("cart")
+		var cart = []
+		localStorage.setItem("cart",JSON.stringify(cart))
 	}
 }
