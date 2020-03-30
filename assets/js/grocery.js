@@ -44,7 +44,7 @@ function addtocart(){
 		alert("Please enter a number only")
 	}
 }
-function removefromcart(){
+function removecart(){
 	var name = "Potatoes"
 	var cart = localStorage.getItem("cart")
 	for (i = 0; i< cart.length;i++){
@@ -74,7 +74,7 @@ function addtocart1(){
 	alert("Please enter a number only")
 }
 }
-function removefromcart1(){
+function removecart1(){
 	var name = "Onions"
 	var cart = localStorage.getItem("cart")
 	for (i = 0; i< cart.length;i++){
@@ -104,7 +104,7 @@ function addtocart2(){
 		alert("Please enter a number only")
 	}
 }
-function removefromcart2(){
+function removecart2(){
 	var name = "Cucumbers"
 	var cart = localStorage.getItem("cart")
 	for (i = 0; i< cart.length;i++){
@@ -134,7 +134,7 @@ function addtocart3(){
 		alert("Please enter a number only")
 	}
 }
-function removefromcart3(){
+function removecart3(){
 	var name = "Lettuce"
 	var cart = localStorage.getItem("cart")
 	for (i = 0; i< cart.length;i++){
@@ -164,7 +164,7 @@ function addtocart4(){
 		alert("Please enter a number only")
 	}
 }
-function removefromcart4(){
+function removecart4(){
 	var name = "Garlic"
 	var cart = localStorage.getItem("cart")
 	for (i = 0; i< cart.length;i++){
@@ -194,7 +194,7 @@ function addtocart5(){
 		alert("Please enter a number only")
 	}
 }
-function removefromcart5(){
+function removecart5(){
 	var name = "Saladmix"
 	var cart = localStorage.getItem("cart")
 	for (i = 0; i< cart.length;i++){
@@ -224,7 +224,7 @@ function addtocart6(){
 		alert("Please enter a number only")
 	}
 }
-function removefromcart6(){
+function removecart6(){
 	var name = "Apples"
 	var cart = localStorage.getItem("cart")
 	for (i = 0; i< cart.length;i++){
@@ -254,7 +254,7 @@ function addtocart7(){
 		alert("Please enter a number only")
 	}
 }
-function removefromcart7(){
+function removecart7(){
 	var name = "Oranges"
 	var cart = localStorage.getItem("cart")
 	for (i = 0; i< cart.length;i++){
@@ -284,7 +284,7 @@ function addtocart8(){
 		alert("Please enter a number only")
 	}
 }
-function removefromcart8(){
+function removecart8(){
 	var name = "Bananas"
 	var cart = localStorage.getItem("cart")
 	for (i = 0; i< cart.length;i++){
@@ -314,7 +314,7 @@ function addtocart9(){
 		alert("Please enter a number only")
 	}
 }
-function removefromcart9(){
+function removecart9(){
 	var name = "Lemons"
 	var cart = localStorage.getItem("cart")
 	for (i = 0; i< cart.length;i++){
@@ -345,7 +345,7 @@ function addtocart10(){
 		alert("Please enter a number only")
 	}
 }
-function removefromcart10(){
+function removecart10(){
 	var name = "Milk"
 	var cart = localStorage.getItem("cart")
 	for (i = 0; i< cart.length;i++){
@@ -375,7 +375,7 @@ function addtocart11(){
 		alert("Please enter a number only")
 	}
 }
-function removefromcart11(){
+function removecart11(){
 	var name = "Cheese"
 	var cart = localStorage.getItem("cart")
 	for (i = 0; i< cart.length;i++){
@@ -405,7 +405,7 @@ function addtocart12(){
 		alert("Please enter a number only")
 	}
 }
-function removefromcart12(){
+function removecart12(){
 	var name = "Beans"
 	var cart = localStorage.getItem("cart")
 	for (i = 0; i< cart.length;i++){
@@ -435,7 +435,7 @@ function addtocart13(){
 		alert("Please enter a number only")
 	}
 }
-function removefromcart13(){
+function removecart13(){
 	var name = "Mac N' Cheese"
 	var cart = localStorage.getItem("cart")
 	for (i = 0; i< cart.length;i++){
@@ -465,7 +465,7 @@ function addtocart14(){
 		alert("Please enter a number only")
 	}
 }
-function removefromcart14(){
+function removecart14(){
 	var name = "Noodles"
 	var cart = localStorage.getItem("cart")
 	for (i = 0; i< cart.length;i++){
@@ -495,7 +495,7 @@ function addtocart15(){
 		alert("Please enter a number only")
 	}
 }
-function removefromcart15(){
+function removecart15(){
 	var name = "Pasta"
 	var cart = localStorage.getItem("cart")
 	for (i = 0; i< cart.length;i++){
@@ -525,7 +525,7 @@ function addtocart16(){
 		alert("Please enter a number only")
 	}
 }
-function removefromcart16(){
+function removecart16(){
 	var name = "Rice"
 	var cart = localStorage.getItem("cart")
 	for (i = 0; i< cart.length;i++){
@@ -555,7 +555,7 @@ function addtocart17(){
 		alert("Please enter a number only")
 	}
 }
-function removefromcart17(){
+function removecart17(){
 	var name = "Toiletpaper"
 	var cart = localStorage.getItem("cart")
 	for (i = 0; i< cart.length;i++){
@@ -585,7 +585,7 @@ function addtocart18(){
 		alert("Please enter a number only")
 	}
 }
-function removefromcart18(){
+function removecart18(){
 	var name = "Handsoap"
 	var cart = localStorage.getItem("cart")
 	for (i = 0; i< cart.length;i++){
@@ -615,7 +615,7 @@ function addtocart19(){
 		alert("Please enter a number only")
 	}
 }
-function removefromcart19(){
+function removecart19(){
 	var name = "Sanitizer"
 	var cart = localStorage.getItem("cart")
 	for (i = 0; i< cart.length;i++){
@@ -645,7 +645,7 @@ function addtocart20(){
 		alert("Please enter a number only")
 	}
 }
-function removefromcart20(){
+function removecart20(){
 	var name = "Toothpaste"
 	var cart = localStorage.getItem("cart")
 	for (i = 0; i< cart.length;i++){
@@ -676,7 +676,7 @@ function addtocart21(){
 	}
 
 }
-function removefromcart21(){
+function removecart21(){
 	var name = "Bodysoap"
 	var cart = localStorage.getItem("cart")
 	for (i = 0; i< cart.length;i++){
@@ -706,7 +706,7 @@ function addtocart22(){
 		alert("Please enter a number only")
 	}
 }
-function removefromcart22(){
+function removecart22(){
 	var name = "Spoons and Forks"
 	var cart = localStorage.getItem("cart")
 	for (i = 0; i< cart.length;i++){
@@ -736,7 +736,7 @@ function addtocart23(){
 		alert("Please enter a number only")
 	}
 }
-function removefromcart23(){
+function removecart23(){
 	var name = "Paperplates"
 	var cart = localStorage.getItem("cart")
 	for (i = 0; i< cart.length;i++){
@@ -766,7 +766,7 @@ function addtocart24(){
 		alert("Please enter a number only")
 	}
 }
-function removefromcart24(){
+function removecart24(){
 	var name = "Water Bottle Pack"
 	var cart = localStorage.getItem("cart")
 	for (i = 0; i< cart.length;i++){
