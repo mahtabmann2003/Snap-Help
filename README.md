@@ -25,6 +25,7 @@ There are 3 parts to this page. The first is a tracker of Coronavirus cases, rec
 - Vancouver
 - Miami
 - Houston  
+
 However, it will work to an acceptable degree every other city in the US and Canada as well.
 #### Hospital Page:
 Currently, we have a database with 50 hospitals in the aforementioned cities. However, we are looking to expand our searches to as many hospitals as possible. On this page, doctors can fill our information about themselves and their hospital. After we verify them, we contact them back and give the hospital access to edit our [hospital database](https://bit.ly/2UPmB4Z). This will help us optimize our Health page.
