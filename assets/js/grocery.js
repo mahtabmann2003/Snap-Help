@@ -30,7 +30,7 @@ function addtocart(){
 		document.getElementById("input0").value = ""
 		alert("That is over the limit of 10, please type a smaller amount")
 	}
-	if (Number.isInteger(parseInt(inputamount))){
+	else if (Number.isInteger(parseInt(inputamount))){
 	var cart = JSON.parse(localStorage.getItem("cart"))
 	cart.push( {
 		name:"Potatoes",
@@ -61,7 +61,7 @@ function addtocart1(){
 		document.getElementById("input1").value = ""
 		alert("That is over the limit of 10, please type a smaller amount")
 	}
-	if (Number.isInteger(parseInt(inputamount))){
+	else if (Number.isInteger(parseInt(inputamount))){
 	var cart = JSON.parse(localStorage.getItem("cart"))
 	cart.push( {
 		name:"Onions",
@@ -92,7 +92,7 @@ function addtocart2(){
 		document.getElementById("input2").value = ""
 		alert("That is over the limit of 10, please type a smaller amount")
 	}
-	if (Number.isInteger(parseInt(inputamount))){
+	else if (Number.isInteger(parseInt(inputamount))){
 	var cart = JSON.parse(localStorage.getItem("cart"))
 	cart.push( {
 		name:"Cucumbers",
@@ -123,7 +123,7 @@ function addtocart3(){
 		document.getElementById("input3").value = ""
 		alert("That is over the limit of 10, please type a smaller amount")
 	}
-	if (Number.isInteger(parseInt(inputamount))){
+	else if (Number.isInteger(parseInt(inputamount))){
 	var cart = JSON.parse(localStorage.getItem("cart"))
 	cart.push({
 		name:"Lettuce",
@@ -154,7 +154,7 @@ function addtocart4(){
 		document.getElementById("input4").value = ""
 		alert("That is over the limit of 10, please type a smaller amount")
 	}
-	if (Number.isInteger(parseInt(inputamount))){
+	else if (Number.isInteger(parseInt(inputamount))){
 	var cart = JSON.parse(localStorage.getItem("cart"))
 	cart.push( {
 		name:"Garlic",
@@ -185,7 +185,7 @@ function addtocart5(){
 		document.getElementById("input5").value = ""
 		alert("That is over the limit of 5, please type a smaller amount")
 	}
-	if (Number.isInteger(parseInt(inputamount))){
+	else if (Number.isInteger(parseInt(inputamount))){
 	var cart = JSON.parse(localStorage.getItem("cart"))
 	cart.push( {
 		name:"Saladmix",
@@ -216,7 +216,7 @@ function addtocart6(){
 		document.getElementById("input6").value = ""
 		alert("That is over the limit of 10, please type a smaller amount")
 	}
-	if (Number.isInteger(parseInt(inputamount))){
+	else if (Number.isInteger(parseInt(inputamount))){
 	var cart = JSON.parse(localStorage.getItem("cart"))
 	cart.push( {
 		name:"Apples",
@@ -247,7 +247,7 @@ function addtocart7(){
 		document.getElementById("input7").value = ""
 		alert("That is over the limit of 10, please type a smaller amount")
 	}
-	if (Number.isInteger(parseInt(inputamount))){
+	else if (Number.isInteger(parseInt(inputamount))){
 	var cart = JSON.parse(localStorage.getItem("cart"))
 	cart.push( {
 		name:"Oranges",
@@ -278,7 +278,7 @@ function addtocart8(){
 		document.getElementById("input8").value = ""
 		alert("That is over the limit of 10, please type a smaller amount")
 	}
-	if (Number.isInteger(parseInt(inputamount))){
+	else if (Number.isInteger(parseInt(inputamount))){
 	var cart = JSON.parse(localStorage.getItem("cart"))
 	cart.push( {
 		name:"Bananas",
@@ -309,7 +309,7 @@ function addtocart9(){
 		document.getElementById("input9").value = ""
 		alert("That is over the limit of 5, please type a smaller amount")
 	}
-	if (Number.isInteger(parseInt(inputamount))){
+	else if (Number.isInteger(parseInt(inputamount))){
 	var cart = JSON.parse(localStorage.getItem("cart"))
 	cart.push( {
 		name:"Lemons",
@@ -341,7 +341,7 @@ function addtocart10(){
 		document.getElementById("input10").value = ""
 		alert("That is over the limit of 5, please type a smaller amount")
 	}
-	if (Number.isInteger(parseInt(inputamount))){
+	else if (Number.isInteger(parseInt(inputamount))){
 	var cart = JSON.parse(localStorage.getItem("cart"))
 	cart.push( {
 		name:"Milk",
@@ -372,7 +372,7 @@ function addtocart11(){
 		document.getElementById("input11").value = ""
 		alert("That is over the limit of 5, please type a smaller amount")
 	}
-	if (Number.isInteger(parseInt(inputamount))){
+	else if (Number.isInteger(parseInt(inputamount))){
 	var cart = JSON.parse(localStorage.getItem("cart"))
 	cart.push( {
 		name:"Cheese",
@@ -403,7 +403,7 @@ function addtocart12(){
 		document.getElementById("input12").value = ""
 		alert("That is over the limit of 5, please type a smaller amount")
 	}
-	if (Number.isInteger(parseInt(inputamount))){
+	else if (Number.isInteger(parseInt(inputamount))){
 	var cart = JSON.parse(localStorage.getItem("cart"))
 	cart.push( {
 		name:"Beans",
@@ -434,7 +434,7 @@ function addtocart13(){
 		document.getElementById("input13").value = ""
 		alert("That is over the limit of 5, please type a smaller amount")
 	}
-	if (Number.isInteger(parseInt(inputamount))){
+	else if (Number.isInteger(parseInt(inputamount))){
 	var cart = JSON.parse(localStorage.getItem("cart"))
 	cart.push( {
 		name:"Mac N' Cheese",
@@ -465,7 +465,7 @@ function addtocart14(){
 		document.getElementById("input14").value = ""
 		alert("That is over the limit of 5, please type a smaller amount")
 	}
-	if (Number.isInteger(parseInt(inputamount))){
+	else if (Number.isInteger(parseInt(inputamount))){
 	var cart = JSON.parse(localStorage.getItem("cart"))
 	cart.push( {
 		name:"Noodles",
@@ -496,7 +496,7 @@ function addtocart15(){
 		document.getElementById("input15").value = ""
 		alert("That is over the limit of 5, please type a smaller amount")
 	}
-	if (Number.isInteger(parseInt(inputamount))){
+	else if (Number.isInteger(parseInt(inputamount))){
 	var cart = JSON.parse(localStorage.getItem("cart"))
 	cart.push( {
 		name:"Pasta",
@@ -527,7 +527,7 @@ function addtocart16(){
 		document.getElementById("input16").value = ""
 		alert("That is over the limit of 5, please type a smaller amount")
 	}
-	if (Number.isInteger(parseInt(inputamount))){
+	else if (Number.isInteger(parseInt(inputamount))){
 	var cart = JSON.parse(localStorage.getItem("cart"))
 	cart.push( {
 		name:"Rice",
@@ -558,7 +558,7 @@ function addtocart17(){
 		document.getElementById("input17").value = ""
 		alert("That is over the limit of 5, please type a smaller amount")
 	}
-	if (Number.isInteger(parseInt(inputamount))){
+	else if (Number.isInteger(parseInt(inputamount))){
 	var cart = JSON.parse(localStorage.getItem("cart"))
 	cart.push( {
 		name:"Toiletpaper",
@@ -589,7 +589,7 @@ function addtocart18(){
 		document.getElementById("input18").value = ""
 		alert("That is over the limit of 5, please type a smaller amount")
 	}
-	if (Number.isInteger(parseInt(inputamount))){
+	else if (Number.isInteger(parseInt(inputamount))){
 	var cart = JSON.parse(localStorage.getItem("cart"))
 	cart.push( {
 		name:"Handsoap",
@@ -620,7 +620,7 @@ function addtocart19(){
 		document.getElementById("input19").value = ""
 		alert("That is over the limit of 5, please type a smaller amount")
 	}
-	if (Number.isInteger(parseInt(inputamount))){
+	else if (Number.isInteger(parseInt(inputamount))){
 	var cart = JSON.parse(localStorage.getItem("cart"))
 	cart.push( {
 		name:"Sanitizer",
@@ -651,7 +651,7 @@ function addtocart20(){
 		document.getElementById("input20").value = ""
 		alert("That is over the limit of 5, please type a smaller amount")
 	}
-	if (Number.isInteger(parseInt(inputamount))){
+	else if (Number.isInteger(parseInt(inputamount))){
 	var cart = JSON.parse(localStorage.getItem("cart"))
 	cart.push( {
 		name:"Toothpaste",
@@ -682,7 +682,7 @@ function addtocart21(){
 		document.getElementById("input21").value = ""
 		alert("That is over the limit of 5, please type a smaller amount")
 	}
-	if (Number.isInteger(parseInt(inputamount))){
+	else if (Number.isInteger(parseInt(inputamount))){
 	var cart = JSON.parse(localStorage.getItem("cart"))
 	cart.push( {
 		name:"Bodysoap",
@@ -714,7 +714,7 @@ function addtocart22(){
 		document.getElementById("input22").value = ""
 		alert("That is over the limit of 5, please type a smaller amount")
 	}
-	if (Number.isInteger(parseInt(inputamount))){
+	else if (Number.isInteger(parseInt(inputamount))){
 	var cart = JSON.parse(localStorage.getItem("cart"))
 	cart.push( {
 		name:"Spoons and Forks",
@@ -745,7 +745,7 @@ function addtocart23(){
 		document.getElementById("input23").value = ""
 		alert("That is over the limit of 5, please type a smaller amount")
 	}
-	if (Number.isInteger(parseInt(inputamount))){
+	else if (Number.isInteger(parseInt(inputamount))){
 	var cart = JSON.parse(localStorage.getItem("cart"))
 	cart.push( {
 		name:"Paperplates",
@@ -776,7 +776,7 @@ function addtocart24(){
 		document.getElementById("input24").value = ""
 		alert("That is over the limit of 3, please type a smaller amount")
 	}
-	if (Number.isInteger(parseInt(inputamount))){
+	else if (Number.isInteger(parseInt(inputamount))){
 	var cart = JSON.parse(localStorage.getItem("cart"))
 	cart.push( {
 		name:"Water Bottle Pack",
