@@ -21,7 +21,7 @@ function searchgrocery(){
 			location.href = "grocery.html#" + x
 		} 
 	}
-	}
+}
 
 function addtocart(){
 	var inputamount = document.getElementById("input0").value

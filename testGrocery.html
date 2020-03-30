@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <head>
-    <link ref="stylesheet" href="testStyles.css">
-    <script href="testGrocery.js"></script>
+    <link rel="stylesheet" href="testStyles.css">
+    <script href="testing.js"></script>
 </head>
 <body>
-    <input type="text" id="myinput" onkeyup="myfunction()" placeholder="Search For Items"
-
+    <input type="text" type="submit" id="myInput" onkeyup="myFunction()" placeholder="Search For Items">
     <table id="myTable">
         <tr class = "header">
             <th style="width: 60%;" >Name</th>
@@ -48,7 +47,7 @@
         </tr>
         <tr>
             <td>Oranges</td>
-            <input type="text" placeholder="lbs ($1.50/lb)">
+            <input type="text" placeholder="lbs ($1.50/lb)"> -->
             <button class = "grocery-row" onclick = "addtocart()">Add to Cart</button>
         </tr>
         <tr>
@@ -136,5 +135,31 @@
             <input type="text" placeholder="$3.00/pack of 12">
             <button class = "grocery-row" onclick = "addtocart()">Add to Cart</button>
         </tr>
+        </table>
+        <script>
+            function myFunction() {
+            // Declare variables
+            var input, filter, table, tr, td, i, txtValue;
+            input = document.getElementById("myInput");
+            filter = input.value.toUpperCase();
+            table = document.getElementById("myTable");
+            tr = table.getElementsByTagName("tr");
+
+            // Loop through all table rows, and hide those who don't match the search query
+            for (i = 0; i < tr.length; i++) {
+                td = tr[i].getElementsByTagName("td")[0];
+                if (td) {
+                txtValue = td.textContent || td.innerText;
+                if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                    tr[i].style.display = "";
+                } else {
+                    tr[i].style.display = "none";
+                }
+                }
+            }
+            }
+        </script>
+
+        </body>
 
 </body>
