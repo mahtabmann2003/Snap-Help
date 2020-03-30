@@ -44,6 +44,15 @@ function addtocart(){
 		alert("Please enter a number only")
 	}
 }
+function removefromcart(){
+	var name = "Potatoes"
+	var cart = localStorage.getItem("cart")
+	for (i = 0; i< cart.length;i++){
+		if (cart[i].name == name){
+			cart.splice(i)
+		}
+	}
+}
 function addtocart1(){
 	var inputamount = document.getElementById("input1").value
 	var input = parseInt(inputamount)
@@ -65,6 +74,15 @@ function addtocart1(){
 	alert("Please enter a number only")
 }
 }
+function removefromcart1(){
+	var name = "Onions"
+	var cart = localStorage.getItem("cart")
+	for (i = 0; i< cart.length;i++){
+		if (cart[i].name == name){
+			cart.splice(i)
+		}
+	}
+}
 function addtocart2(){
 	var inputamount = document.getElementById("input2").value
 	var input = parseInt(inputamount)
@@ -84,6 +102,15 @@ function addtocart2(){
 	}else{
 		document.getElementById("input2").value = ""
 		alert("Please enter a number only")
+	}
+}
+function removefromcart2(){
+	var name = "Cucumbers"
+	var cart = localStorage.getItem("cart")
+	for (i = 0; i< cart.length;i++){
+		if (cart[i].name == name){
+			cart.splice(i)
+		}
 	}
 }
 function addtocart3(){
@@ -107,6 +134,15 @@ function addtocart3(){
 		alert("Please enter a number only")
 	}
 }
+function removefromcart3(){
+	var name = "Lettuce"
+	var cart = localStorage.getItem("cart")
+	for (i = 0; i< cart.length;i++){
+		if (cart[i].name == name){
+			cart.splice(i)
+		}
+	}
+}
 function addtocart4(){
 	var inputamount = document.getElementById("input4").value
 	var input = parseInt(inputamount)
@@ -126,6 +162,15 @@ function addtocart4(){
 	}else{
 		document.getElementById("input4").value = ""
 		alert("Please enter a number only")
+	}
+}
+function removefromcart4(){
+	var name = "Garlic"
+	var cart = localStorage.getItem("cart")
+	for (i = 0; i< cart.length;i++){
+		if (cart[i].name == name){
+			cart.splice(i)
+		}
 	}
 }
 function addtocart5(){
@@ -149,6 +194,15 @@ function addtocart5(){
 		alert("Please enter a number only")
 	}
 }
+function removefromcart5(){
+	var name = "Saladmix"
+	var cart = localStorage.getItem("cart")
+	for (i = 0; i< cart.length;i++){
+		if (cart[i].name == name){
+			cart.splice(i)
+		}
+	}
+}
 function addtocart6(){
 	var inputamount = document.getElementById("input6").value
 	var input = parseInt(inputamount)
@@ -170,7 +224,15 @@ function addtocart6(){
 		alert("Please enter a number only")
 	}
 }
-
+function removefromcart6(){
+	var name = "Apples"
+	var cart = localStorage.getItem("cart")
+	for (i = 0; i< cart.length;i++){
+		if (cart[i].name == name){
+			cart.splice(i)
+		}
+	}
+}
 function addtocart7(){
 	var inputamount = document.getElementById("input7").value
 	var input = parseInt(inputamount)
@@ -190,6 +252,15 @@ function addtocart7(){
 	}else{
 		document.getElementById("input7").value = ""
 		alert("Please enter a number only")
+	}
+}
+function removefromcart7(){
+	var name = "Oranges"
+	var cart = localStorage.getItem("cart")
+	for (i = 0; i< cart.length;i++){
+		if (cart[i].name == name){
+			cart.splice(i)
+		}
 	}
 }
 function addtocart8(){
@@ -213,6 +284,15 @@ function addtocart8(){
 		alert("Please enter a number only")
 	}
 }
+function removefromcart8(){
+	var name = "Bananas"
+	var cart = localStorage.getItem("cart")
+	for (i = 0; i< cart.length;i++){
+		if (cart[i].name == name){
+			cart.splice(i)
+		}
+	}
+}
 function addtocart9(){
 	var inputamount = document.getElementById("input9").value
 	var input = parseInt(inputamount)
@@ -234,7 +314,15 @@ function addtocart9(){
 		alert("Please enter a number only")
 	}
 }
-
+function removefromcart9(){
+	var name = "Lemons"
+	var cart = localStorage.getItem("cart")
+	for (i = 0; i< cart.length;i++){
+		if (cart[i].name == name){
+			cart.splice(i)
+		}
+	}
+}
 
 function addtocart10(){
 	var inputamount = document.getElementById("input10").value
@@ -255,6 +343,15 @@ function addtocart10(){
 	}else{
 		document.getElementById("input10").value = ""
 		alert("Please enter a number only")
+	}
+}
+function removefromcart10(){
+	var name = "Milk"
+	var cart = localStorage.getItem("cart")
+	for (i = 0; i< cart.length;i++){
+		if (cart[i].name == name){
+			cart.splice(i)
+		}
 	}
 }
 function addtocart11(){
@@ -278,6 +375,15 @@ function addtocart11(){
 		alert("Please enter a number only")
 	}
 }
+function removefromcart11(){
+	var name = "Cheese"
+	var cart = localStorage.getItem("cart")
+	for (i = 0; i< cart.length;i++){
+		if (cart[i].name == name){
+			cart.splice(i)
+		}
+	}
+}
 function addtocart12(){
 	var inputamount = document.getElementById("input12").value
 	var input = parseInt(inputamount)
@@ -299,7 +405,15 @@ function addtocart12(){
 		alert("Please enter a number only")
 	}
 }
-
+function removefromcart12(){
+	var name = "Beans"
+	var cart = localStorage.getItem("cart")
+	for (i = 0; i< cart.length;i++){
+		if (cart[i].name == name){
+			cart.splice(i)
+		}
+	}
+}
 function addtocart13(){
 	var inputamount = document.getElementById("input13").value
 	var input = parseInt(inputamount)
@@ -321,7 +435,15 @@ function addtocart13(){
 		alert("Please enter a number only")
 	}
 }
-
+function removefromcart13(){
+	var name = "Mac N' Cheese"
+	var cart = localStorage.getItem("cart")
+	for (i = 0; i< cart.length;i++){
+		if (cart[i].name == name){
+			cart.splice(i)
+		}
+	}
+}
 function addtocart14(){
 	var inputamount = document.getElementById("input14").value
 	var input = parseInt(inputamount)
@@ -341,6 +463,15 @@ function addtocart14(){
 	}else{
 		document.getElementById("input14").value = ""
 		alert("Please enter a number only")
+	}
+}
+function removefromcart14(){
+	var name = "Noodles"
+	var cart = localStorage.getItem("cart")
+	for (i = 0; i< cart.length;i++){
+		if (cart[i].name == name){
+			cart.splice(i)
+		}
 	}
 }
 function addtocart15(){
@@ -364,6 +495,15 @@ function addtocart15(){
 		alert("Please enter a number only")
 	}
 }
+function removefromcart15(){
+	var name = "Pasta"
+	var cart = localStorage.getItem("cart")
+	for (i = 0; i< cart.length;i++){
+		if (cart[i].name == name){
+			cart.splice(i)
+		}
+	}
+}
 function addtocart16(){
 	var inputamount = document.getElementById("input16").value
 	var input = parseInt(inputamount)
@@ -383,6 +523,15 @@ function addtocart16(){
 	}else{
 		document.getElementById("input16").value = ""
 		alert("Please enter a number only")
+	}
+}
+function removefromcart16(){
+	var name = "Rice"
+	var cart = localStorage.getItem("cart")
+	for (i = 0; i< cart.length;i++){
+		if (cart[i].name == name){
+			cart.splice(i)
+		}
 	}
 }
 function addtocart17(){
@@ -406,6 +555,15 @@ function addtocart17(){
 		alert("Please enter a number only")
 	}
 }
+function removefromcart17(){
+	var name = "Toiletpaper"
+	var cart = localStorage.getItem("cart")
+	for (i = 0; i< cart.length;i++){
+		if (cart[i].name == name){
+			cart.splice(i)
+		}
+	}
+}
 function addtocart18(){
 	var inputamount = document.getElementById("input18").value
 	var input = parseInt(inputamount)
@@ -427,7 +585,15 @@ function addtocart18(){
 		alert("Please enter a number only")
 	}
 }
-
+function removefromcart18(){
+	var name = "Handsoap"
+	var cart = localStorage.getItem("cart")
+	for (i = 0; i< cart.length;i++){
+		if (cart[i].name == name){
+			cart.splice(i)
+		}
+	}
+}
 function addtocart19(){
 	var inputamount = document.getElementById("input19").value
 	var input = parseInt(inputamount)
@@ -449,6 +615,15 @@ function addtocart19(){
 		alert("Please enter a number only")
 	}
 }
+function removefromcart19(){
+	var name = "Sanitizer"
+	var cart = localStorage.getItem("cart")
+	for (i = 0; i< cart.length;i++){
+		if (cart[i].name == name){
+			cart.splice(i)
+		}
+	}
+}
 function addtocart20(){
 	var inputamount = document.getElementById("input20").value
 	var input = parseInt(inputamount)
@@ -468,6 +643,15 @@ function addtocart20(){
 	}else{
 		document.getElementById("input20").value = ""
 		alert("Please enter a number only")
+	}
+}
+function removefromcart20(){
+	var name = "Toothpaste"
+	var cart = localStorage.getItem("cart")
+	for (i = 0; i< cart.length;i++){
+		if (cart[i].name == name){
+			cart.splice(i)
+		}
 	}
 }
 function addtocart21(){
@@ -492,6 +676,15 @@ function addtocart21(){
 	}
 
 }
+function removefromcart21(){
+	var name = "Bodysoap"
+	var cart = localStorage.getItem("cart")
+	for (i = 0; i< cart.length;i++){
+		if (cart[i].name == name){
+			cart.splice(i)
+		}
+	}
+}
 function addtocart22(){
 	var inputamount = document.getElementById("input22").value
 	var input = parseInt(inputamount)
@@ -513,7 +706,15 @@ function addtocart22(){
 		alert("Please enter a number only")
 	}
 }
-
+function removefromcart22(){
+	var name = "Spoons and Forks"
+	var cart = localStorage.getItem("cart")
+	for (i = 0; i< cart.length;i++){
+		if (cart[i].name == name){
+			cart.splice(i)
+		}
+	}
+}
 function addtocart23(){
 	var inputamount = document.getElementById("input23").value
 	var input = parseInt(inputamount)
@@ -535,7 +736,15 @@ function addtocart23(){
 		alert("Please enter a number only")
 	}
 }
-
+function removefromcart23(){
+	var name = "Paperplates"
+	var cart = localStorage.getItem("cart")
+	for (i = 0; i< cart.length;i++){
+		if (cart[i].name == name){
+			cart.splice(i)
+		}
+	}
+}
 function addtocart24(){
 	var inputamount = document.getElementById("input24").value
 	var input = parseInt(inputamount)
@@ -557,7 +766,15 @@ function addtocart24(){
 		alert("Please enter a number only")
 	}
 }
-
+function removefromcart24(){
+	var name = "Water Bottle Pack"
+	var cart = localStorage.getItem("cart")
+	for (i = 0; i< cart.length;i++){
+		if (cart[i].name == name){
+			cart.splice(i)
+		}
+	}
+}
 function checkout(){
 	document.getElementById("myForm").style.display = "block"
 	var cart = JSON.parse(localStorage.getItem("cart"))
